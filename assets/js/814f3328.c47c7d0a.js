@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkastro_docs=self.webpackChunkastro_docs||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/astro-docs/blog/welcome"}]}')}}]);

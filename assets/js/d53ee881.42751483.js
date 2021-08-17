@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkastro_docs=self.webpackChunkastro_docs||[]).push([[154],{7409:function(o){o.exports=JSON.parse('{"permalink":"/astro-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
