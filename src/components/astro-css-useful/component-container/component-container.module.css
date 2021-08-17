@@ -1,0 +1,9 @@
+.container {
+  margin: 20px 10px;
+}
+
+.container table td,
+.container table th,
+.container table tr {
+  border: 0;
+}

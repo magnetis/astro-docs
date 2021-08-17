@@ -5,13 +5,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 module.exports = {
   title: "Astro Docs",
   tagline: "Magnetis' Design System",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  url: "https://magnetis.github.io/astro-docs/",
+  baseUrl: "/astro-docs/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "magnetis", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "magnetis",
+  projectName: "astro-docs",
   themeConfig: {
     navbar: {
       title: "Astro",
