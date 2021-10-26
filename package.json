@@ -15,10 +15,13 @@
     "gh:deploy": "USE_SSH=true yarn deploy"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.4",
-    "@docusaurus/preset-classic": "2.0.0-beta.4",
+    "@docusaurus/core": "^2.0.0-beta.6",
+    "@docusaurus/preset-classic": "^2.0.0-beta.6",
     "@magnetis/astro": "^3.3.0",
+    "@magnetis/astro-native": "^1.8.6",
+    "@magnetis/astro-tokens": "^0.0.8",
     "@mdx-js/react": "^1.6.21",
+    "@react-native-website/remark-snackplayer": "git+https://github.com/victorheringer/remaker-snackplayer.git#513017a629f9a25c067cbcd8c1ad468880467d11",
     "@svgr/webpack": "^5.5.0",
     "add": "^2.0.6",
     "clsx": "^1.1.1",

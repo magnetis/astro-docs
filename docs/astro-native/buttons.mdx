@@ -1,0 +1,22 @@
+---
+sidebar_position: 2
+---
+
+# Buttons
+
+```SnackPlayer dependencies=@magnetis/astro-native,react-native-svg,@magnetis/astro-native,@magnetis/astro-galaxy-tokens,@expo-google-fonts/inter
+
+import React from 'react';
+import { Text, View } from 'react-native';
+import {PrimaryButton} from '@magnetis/astro-native';
+
+const App = () => {
+  return (
+    <View style={{ flex: 1, justifyContent: "center", alignItems: "center", padding: "20px" }}>
+      <PrimaryButton fill text="ok!" onPress={() => {}} />
+    </View>
+  );
+}
+
+export default App;
+```

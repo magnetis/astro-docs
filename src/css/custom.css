@@ -27,3 +27,17 @@
 html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+.snack-player {
+  height: 505px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 24px;
+  border: 1px solid var(--ifm-table-border-color);
+  border-radius: var(--ifm-global-radius);
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url(https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap);
+}

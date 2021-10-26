@@ -7,11 +7,13 @@ module.exports = {
   tagline: "Magnetis' Design System",
   url: "https://magnetis.github.io/astro-docs/",
   baseUrl: "/astro-docs/",
+  clientModules: [require.resolve("./snackPlayerInitializer.js")],
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "magnetis",
   projectName: "astro-docs",
+  scripts: [{ src: "https://snack.expo.dev/embed.js", defer: true }],
   themeConfig: {
     navbar: {
       title: "Astro",
@@ -89,6 +91,7 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
+          remarkPlugins: [require("@react-native-website/remark-snackplayer")],
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
