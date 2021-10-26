@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkastro_docs=self.webpackChunkastro_docs||[]).push([[734],{1522:function(o){o.exports=JSON.parse('{"allTagsPath":"/astro-docs/blog/tags","slug":"facebook","name":"facebook","count":1,"permalink":"/astro-docs/blog/tags/facebook"}')}}]);
